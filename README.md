@@ -37,7 +37,7 @@ It supports spidering, active scanning, alert extraction, severity-based filteri
 
 ```bash
 git clone https://github.com/0xprasanth/dastypy
-cd zap-dast-automation
+cd dastypy
 ```
 
 ### 2️⃣ Install Python dependencies
