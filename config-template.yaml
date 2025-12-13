@@ -1,0 +1,20 @@
+# config.yaml - DAST runner configuration
+zap:
+  host: "127.0.0.1"
+  port: 8080
+  api_key: "" # leave empty if api.disablekey=true
+scan:
+  target: "https://example.com"
+  context: "" # optional ZAP context name
+  exclude:
+    - "/logout"
+  max_scan_time: 900 # seconds
+reports:
+  formats:
+    - html
+    - json
+    - md
+output:
+  reports_dir: "reports"
+logging:
+  level: "INFO"
